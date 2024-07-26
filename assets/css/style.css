@@ -8892,7 +8892,7 @@ Header Customization
 }
 .destination-style2 .destination-name > a:hover,
 .destination-style3 .destination-name > a:hover {
-  color: var(--theme-color);
+  color: var(--theme-color2);
 }
 .destination-style2 .destination-text,
 .destination-style3 .destination-text {
