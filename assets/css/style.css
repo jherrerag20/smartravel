@@ -2437,7 +2437,7 @@ a.text-theme:hover,
 .footer-widget .widget_title::before {
   width: 60px;
   height: 2px;
-  background-color: var(--theme-color);
+  background-color: var(--white-color);
   left: 0;
   bottom: 0;
 }
@@ -2483,7 +2483,7 @@ a.text-theme:hover,
 }
 .footer-widget.widget_nav_menu a:hover {
   background-color: transparent;
-  color: var(--theme-color);
+  color: var(--theme-color2);
 }
 .footer-widget.widget_nav_menu li > span {
   width: auto;
@@ -2536,7 +2536,7 @@ a.text-theme:hover,
   border: 1px solid var(--white-color);
 }
 .social-style1 a:hover {
-  background-color: var(--theme-color);
+  background-color: var(--theme-color2);
   border-color: var(--theme-color);
 }
 .social-style1 a:last-child {
