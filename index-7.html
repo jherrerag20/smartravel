@@ -45,6 +45,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+
   <!-- <style>
   .preloader {
       position: fixed;
@@ -83,6 +85,13 @@
 </head>
 
 <body>
+
+
+
+
+  <div id="loader" class="preloader">
+    <div class="spinner"></div>
+  </div>
 
   <!--********************************
     Code Start From Here 
@@ -317,97 +326,97 @@
   <!--==============================
     Hero Area Start 
   ==============================-->
-  <section class="hero-layout3">
+    <section class="hero-layout3">
 
-    <video autoplay muted loop playsinline>
-      <source src="https://b9c34337d34eb8aa9af750796c9d08ec.cdn.bubble.io/f1721189287081x828770894985643800/polynesia_1080.mp4" type="video/mp4">
-    </video>
-    
-  <div class="hero-mask">
-    <div class="container">
-      <div class="row align-items-center justify-content-start">
-        <div class="col-lg-10 offset-lg-2">
-          <div class="row">
-            <div class="col-lg-5">
-              <div class="vs-carousel" id="hero-slider" data-slide-show="1" autoplay="false">
-                <div class="hero-slide">
-                  <div class="hero-img">
-                    <img class="img1" src="assets/img/banner/vegas.png" alt="hero">
+      <video autoplay muted loop playsinline>
+        <source src="https://b9c34337d34eb8aa9af750796c9d08ec.cdn.bubble.io/f1721189287081x828770894985643800/polynesia_1080.mp4" type="video/mp4">
+      </video>
+      
+    <div class="hero-mask">
+      <div class="container">
+        <div class="row align-items-center justify-content-start">
+          <div class="col-lg-10 offset-lg-2">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="vs-carousel" id="hero-slider" data-slide-show="1" autoplay="false">
+                  <div class="hero-slide">
+                    <div class="hero-img">
+                      <img class="img1" src="assets/img/banner/vegas.png" alt="hero">
+                    </div>
                   </div>
-                </div>
-                <div class="hero-slide">
-                  <div class="hero-img">
-                    <img class="img1" src="assets/img/banner/disney.png" alt="hero">
+                  <div class="hero-slide">
+                    <div class="hero-img">
+                      <img class="img1" src="assets/img/banner/disney.png" alt="hero">
+                    </div>
                   </div>
-                </div>
-                <div class="hero-slide">
-                  <div class="hero-img">
-                    <img class="img1" src="assets/img/banner/ny.png" alt="hero">
+                  <div class="hero-slide">
+                    <div class="hero-img">
+                      <img class="img1" src="assets/img/banner/ny.png" alt="hero">
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-7">
-              <div class="hero-content">
-                <span class="hero-subtitle">Bienvenido a <img src="assets/img/HOME_SMARTRAVEL.png" width="200px"></span>
-                <h1 class="hero-title">Cada Viaje <br>una Experiencia <br>Inolvidable</h1>
+              <div class="col-lg-7">
+                <div class="hero-content">
+                  <span class="hero-subtitle">Bienvenido a <img src="assets/img/HOME_SMARTRAVEL.png" width="200px"></span>
+                  <h1 class="hero-title">Cada Viaje <br>una Experiencia <br>Inolvidable</h1>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="hero-bottom">
-        <div class="container">
-          <!--<div class="row justify-content-center">
-            <div class="col-lg-10">
-              <form class="hero-form">
-                <div class="row align-items-center">
-                  <div class="col-lg-3 col-md-6 px-0 col-sm-6 col-12">
-                    <div class="form-group">
-                      <i class="far fa-search"></i>
-                      <input type="text" placeholder="Search" />
+        <div class="hero-bottom">
+          <div class="container">
+            <!--<div class="row justify-content-center">
+              <div class="col-lg-10">
+                <form class="hero-form">
+                  <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-6 px-0 col-sm-6 col-12">
+                      <div class="form-group">
+                        <i class="far fa-search"></i>
+                        <input type="text" placeholder="Search" />
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-0 col-sm-6 col-12">
+                      <div class="form-group">
+                        <i class="far fa-globe-asia"></i>
+                        <select class="form-select" name="name">
+                          <option value="" selected="selected" disabled="disabled" hidden="">Continente</option>
+                          <option value="">Asia</option>
+                          <option value="">África</option>
+                          <option value="">Amércia</option>
+                          <option value="">Europa</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-0 col-sm-6 col-12">
+                      <div class="form-group">
+                        <i class="far fa-map-marker-alt"></i>
+                        <select class="form-select" name="name">
+                          <option value="" selected="selected" disabled="disabled" hidden="">Destinos</option>
+                          <option value="">México</option>
+                          <option value="">España</option>
+                          <option value="">Estados Unidos</option>
+                          <option value="">Inglaterra</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 px-0 text-end col-sm-6 col-12">
+                      <button class="vs-btn style4">Buscar</button>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 px-0 col-sm-6 col-12">
-                    <div class="form-group">
-                      <i class="far fa-globe-asia"></i>
-                      <select class="form-select" name="name">
-                        <option value="" selected="selected" disabled="disabled" hidden="">Continente</option>
-                        <option value="">Asia</option>
-                        <option value="">África</option>
-                        <option value="">Amércia</option>
-                        <option value="">Europa</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 px-0 col-sm-6 col-12">
-                    <div class="form-group">
-                      <i class="far fa-map-marker-alt"></i>
-                      <select class="form-select" name="name">
-                        <option value="" selected="selected" disabled="disabled" hidden="">Destinos</option>
-                        <option value="">México</option>
-                        <option value="">España</option>
-                        <option value="">Estados Unidos</option>
-                        <option value="">Inglaterra</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 px-0 text-end col-sm-6 col-12">
-                    <button class="vs-btn style4">Buscar</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>-->
+                </form>
+              </div>
+            </div>-->
+          </div>
         </div>
       </div>
+      
     </div>
-    
-  </div>
-</section>
-<!-- ============================
-    Hero Area End 
-==============================-->
+  </section>
+  <!-- ============================
+      Hero Area End 
+  ==============================-->
   <!--==============================
     Tour Package Area Start 
   ==============================-->
@@ -633,9 +642,9 @@
                 <span class="media-info">27</span>
               </div>
             </div>
-            <img class="img1" src="assets/img/about/greece.png" alt="about image" width="450px">
+            <img class="img1" src="assets/img/about/img-3-1.jpg" alt="about image">
             <div class="bottom-img">
-              <img class="img3" src="assets/img/about/yate_2.png" alt="about image" width="445px">
+              <img class="img3" src="assets/img/about/img-3-2.jpg" alt="about image">
             </div>
           </div>
         </div>
@@ -1320,7 +1329,37 @@
     ******************************** -->
 
   <!-- Scroll To Top -->
-  <a href="#" class="scrollToTop scroll-btn"><i class="far fa-arrow-up"></i></a>
+<a href="#" class="scrollToTop scroll-btn">
+  <i class="far fa-arrow-up"></i>
+</a>
+
+<br><br>
+
+<!-- WhatsApp Icon -->
+<a href="https://wa.me/+5215565374429" class="whatsapp-btn" target="_blank">
+  <img src="assets/img/icons/waIcon.png" alt="WhatsApp">
+</a>
+
+<style>
+
+.scrollToTop {
+    position: fixed;
+    bottom: 50px; /* Ajusta la distancia desde la parte inferior */
+    right: 50px; /* Ajusta la distancia desde el lado derecho */
+    z-index: 1000;
+  }
+  .whatsapp-btn {
+    position: fixed;
+    bottom: 140px; /* Ajusta la distancia desde la parte inferior */
+    right: 50px; /* Ajusta la distancia desde el lado derecho */
+    z-index: 1001; /* Asegúrate de que esté por encima del scrollToTop */
+  }
+  .whatsapp-btn img {
+    width: 50px; /* Ajusta el tamaño del icono */
+    height: 50px; /* Ajusta el tamaño del icono */
+  }
+  
+</style>
 
   <!--==============================
       All Js File
@@ -1344,8 +1383,10 @@
   <script src="assets/js/wow.min.js"></script>
   <!-- Main Js File -->
   <script src="assets/js/main.js"></script>
-  <!-- Loader -->
+
+
   <script src="assets/js/loader.js"></script>
+
 </body>
 
 </html>
