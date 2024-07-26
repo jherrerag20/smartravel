@@ -782,7 +782,7 @@ textarea.is-invalid {
   padding-top: 40px;
   display: block;
   text-align: center;
-  background-color: rgba(255, 104, 26, 0.1);
+  background-color: var(--theme-color);
 }
 .vs-menu-wrapper .mobile-logo img,
 .vs-menu-wrapper .mobile-logo svg {
@@ -10649,7 +10649,7 @@ Header Customization
 }
 .testimonial-style6 .testi-style6 {
   border: 1px solid var(--white-color);
-  background-color: var(--black-color);
+  background-color: rgba(0,0,0,0.8);
   padding: 30px;
   border-radius: 30px 0;
   position: relative;
@@ -11035,3 +11035,28 @@ Header Customization
   opacity: 0;
 }
 
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */
+  z-index: 1;
+}
