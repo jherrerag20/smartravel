@@ -10067,7 +10067,7 @@ Header Customization
 .destination-style3:hover {
   flex: 1.5;
 }
-.destination-style3:hover::before,
+.destination-style3:hover::before, 
 .destination-style3:hover .destination-info {
   opacity: 1;
   visibility: visible;
@@ -10140,6 +10140,8 @@ Header Customization
   background-color: var(--theme-color);
 }
 
+/*Inicio de las cards*/
+
 .hero-layout3 {
   position: relative;
 }
@@ -10207,13 +10209,43 @@ Header Customization
   background-color: var(--white-color);
 }
 
+/* Medium devices */
 @media (max-width: 991px) {
+  .hero-layout3 .hero-mask {
+    padding-top: 120px; /* Ajusta el padding superior para dispositivos medianos */
+    padding-bottom: 60px; /* Ajusta el padding inferior si es necesario */
+  }
+  .hero-layout3 .hero-img {
+    height: 70%; /* Ajusta la altura del contenedor para hacerlo más pequeño */
+    width: 80%; /* Ajusta el ancho del contenedor para hacerlo más pequeño */
+  }
+  .hero-layout3 .hero-content {
+    margin-top: 10px; /* Ajusta el margen superior para acercar el contenido a las imágenes */
+  }
+  .hero-layout3 .hero-content .hero-title {
+    font-size: 50px; /* Ajusta el tamaño del título para dispositivos medianos */
+  }
   .hero-layout3 .hero-bottom .hero-form {
     margin: 0 0;
   }
 }
 
+/* Small devices */
 @media (max-width: 767px) {
+  .hero-layout3 .hero-mask {
+    padding-top: 80px; /* Ajusta el padding superior para dispositivos pequeños */
+    padding-bottom: 40px; /* Ajusta el padding inferior si es necesario */
+  }
+  .hero-layout3 .hero-img {
+    height: 50%; /* Ajusta la altura del contenedor para hacerlo más pequeño */
+    width: 70%; /* Ajusta el ancho del contenedor para hacerlo más pequeño */
+  }
+  .hero-layout3 .hero-content {
+    margin-top: 5px; /* Ajusta el margen superior para acercar el contenido a las imágenes */
+  }
+  .hero-layout3 .hero-content .hero-title {
+    font-size: 30px; /* Ajusta el tamaño del título para dispositivos pequeños */
+  }
   .hero-layout3 .hero-bottom .hero-form {
     padding: 15px;
   }
@@ -10243,6 +10275,7 @@ Header Customization
   left: calc(var(--bs-gutter-x) / 2 + 10px);
   color: var(--theme-color2);
 }
+/*Fin de las cards */
 
 
 .package-layout1 {
@@ -10956,19 +10989,34 @@ Header Customization
   font-style: normal;
 }
 
+
+.whatsapp-btn {
+  position: fixed !important;
+  bottom: 50px !important;
+  right: 50px !important;
+  z-index: 1000 !important;
+}
+.whatsapp-btn img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.scrollToTop {
+  position: fixed !important;
+  bottom: 120px !important;
+  right: 50px !important;
+  z-index: 1001 !important;
+}
+
+
 .scrollToTop {
   position: fixed;
   bottom: 50px; /* Ajusta la distancia desde la parte inferior */
   right: 50px; /* Ajusta la distancia desde el lado derecho */
   z-index: 1000;
 }
-.whatsapp-btn {
-  position: fixed;
-  bottom: 140px; /* Ajusta la distancia desde la parte inferior */
-  right: 50px; /* Ajusta la distancia desde el lado derecho */
-  z-index: 1001; /* Asegúrate de que esté por encima del scrollToTop */
-}
-.whatsapp-btn img {
-  width: 50px; /* Ajusta el tamaño del icono */
-  height: 50px; /* Ajusta el tamaño del icono */
+ 
+
+.offer-image {
+  opacity: 0;
 }
