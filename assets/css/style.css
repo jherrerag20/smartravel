@@ -1070,13 +1070,23 @@ textarea.is-invalid {
 .vs-btn.style4::before, .vs-btn.style4::after {
   background-color: var(--theme-color2);
 }
-.vs-btn.style5, .vs-btn.style6, .vs-btn.style7 {
+.vs-btn.style6, .vs-btn.style7 {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
   border-radius: 15px;
   padding: 22px 50px;
   background: var(--theme-color);
+  min-height: 60px;
+}
+.vs-btn.style5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--theme-color);
+  text-transform: capitalize;
+  border-radius: 15px;
+  padding: 22px 50px;
+  background: var(--smoke-color);
   min-height: 60px;
 }
 .vs-btn.style5::before, .vs-btn.style5::after, .vs-btn.style6::before, .vs-btn.style6::after, .vs-btn.style7::before, .vs-btn.style7::after {
