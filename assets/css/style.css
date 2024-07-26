@@ -11060,3 +11060,14 @@ Header Customization
   background: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según sea necesario */
   z-index: 1;
 }
+
+.copyright-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.copyright-text img {
+  margin: 0 5px; /* Ajusta el margen entre las imágenes y el texto según sea necesario */
+}
